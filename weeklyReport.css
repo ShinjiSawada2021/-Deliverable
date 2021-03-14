@@ -1,0 +1,87 @@
+body {
+  background-color: #C4DFE6;
+}
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
+
+.containerYearMonth {
+  background-color: blue;
+  color: white;
+  width: 180px;
+}
+
+.yearMonth {
+  width: 180px;
+}
+
+.containerFirst {
+  background-color: blue;
+  color: white;
+  width: 100px;
+}
+
+.containerSecond {
+  background-color: blue;
+  color: white;
+}
+
+.firstDay {
+  width: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  border:1px solid #333;
+  text-align: center;
+  width: 400px;
+}
+
+td {
+  border-collapse: collapse;
+  border:1px solid #333;
+  background: #CCFFFF; 
+}
+
+table:nth-child(odd) td {
+  background: #fff;
+}
+
+.catalogue {
+  background-color: gainsboro;
+}
+
+.btn {
+  color: #FDFFFF;
+  padding: 5px 20px;
+  background-color: rgb(189, 68, 68);
+  border-style: none;
+  width: 300px;
+  height: 70px;
+  position:absolute;
+  bottom:20px;
+  left:0;
+  right:0;
+  margin:auto;
+  display:table;
+  text-align:center;
+}
+
+span {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.btn:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
